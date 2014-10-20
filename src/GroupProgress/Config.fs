@@ -93,7 +93,7 @@ let private parseContest index contest =
 
 let readGroup (configPath : string) =
     let root = JsonValue.Load(configPath)
-
+    
     let messageCtor e = sprintf "Unable to read group: %s." e
     let name = getRopProperty convertToString50 messageCtor "name" root
     let users = getRopProperty convertToArray messageCtor "users" root |> Array.mapi(fun i u -> parseUser i u)

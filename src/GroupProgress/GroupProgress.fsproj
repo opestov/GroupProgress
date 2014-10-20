@@ -59,6 +59,7 @@
     <Compile Include="Providers.fs" />
     <Compile Include="Timus.fs" />
     <Compile Include="Ejudge.fs" />
+    <Compile Include="Mccme.fs" />
     <Compile Include="Main.fs" />
     <Content Include="packages.config" />
   </ItemGroup>

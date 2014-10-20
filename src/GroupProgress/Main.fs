@@ -161,6 +161,7 @@ type Judge =
         | T of (string -> seq<Providers.ProblemProgress>) * (string -> seq<Providers.ProblemInfo>)
 
     static member CreateTimus() = T(Timus.getProgress, Timus.getProblemsInfo)    
+    static member CreateMccme() = T(Mccme.getProgress, Mccme.getProblemsInfo)    
 
     // dir/3.xml; dir/7.xml; dir/43.xml
     static member CreateLocalEjudge judgeName dir =
