@@ -13,6 +13,9 @@
     <releaseNotes>@releaseNotes@</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>@tags@</tags>
+    <dependencies>
+      <dependency id="FSharp.Data" version="2.0.15"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="..\bin\GroupProgress.dll" target="lib/net40" />

@@ -31,7 +31,9 @@ let summary = "Create custom programming contests from problems on various onlin
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "This library allows to get information about progress of a group of people in solving algorithmic programming problems on a set of online judges."
+let description = """
+    This library allows to get information about progress of a group of people 
+    in solving an algorithmic programming problems on a set of online judges."""
 
 // List of author names (for NuGet package)
 let authors = [ "Oleg Pestov" ]
