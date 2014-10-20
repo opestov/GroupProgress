@@ -1,0 +1,20 @@
+{
+    "name": "Crimson 2013/2014",
+    "users": [
+        { "name": "A", "display": "E", "mccme": 90068},
+        { "name": "A", "display": "S", "mccme": 55178},
+        { "name": "A", "display": "Y", "mccme": 93005},
+        { "name": "A", "display": "A", "mccme": 90470}
+    ],
+    "contests": [
+        {
+            "name": "Ввод/вывод, арифметические операции",
+            "problems": [
+                { "site": "mccme", "problem": 2936 },
+                { "site": "mccme", "problem": 2937 },
+                { "site": "mccme", "problem": 2938 },
+                { "site": "mccme", "problem": 2939 }
+            ]
+        }
+    ]
+}
