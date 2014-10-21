@@ -6,11 +6,15 @@ people in solving programming problems on a set of online judges.
 This is the typical homework assignment in my class:
 
 > In order to better understand the subject of lecture
-> please solve the problem A and B on acm.timus.ru and problem C on informatics.mccme.ru
+> please solve the problems A and B on acm.timus.ru and problem C on informatics.mccme.ru
 
 GroupProgress can be used to track the process of completting such kind of homeworks.
 
 # Entry point
+
+~~~
+nuget install GroupProgress
+~~~
 
 To retrieve information one has to call the method `GroupProgress.Main.gather` and pass it the list of judges and path to the configuration file.
 
